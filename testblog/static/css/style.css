@@ -1,7 +1,7 @@
 * { margin: 0; padding: 0; outline:0; }
 
 body {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 20px;
     font-family: Georgia, Arial, Helvetica, Sans-Serif;
     color: #333;
@@ -66,3 +66,33 @@ textarea { overflow:auto; }
 #footer { font-family: Arial, sans-serif; font-size: 11px; line-height: 14px; color: #7f7f7f; padding: 18px 27px 20px 38px; }
 #footer a{ color: #7f7f7f; }
 
+.form-comment{
+    font-size: 16px;
+}
+.form-comment label{
+    margin: 8px 8px
+}
+.form-comment input{
+    border-radius: 12px;
+    padding: 12px;
+    height: 50px;
+    width:250px;
+}
+.form-comment textarea{
+    border-radius: 12px;
+    padding: 12px;
+    height: 150px;
+    width: 100%;
+    resize: vertical;
+}
+
+.form-comment div{
+    margin: 10px
+}
+
+.view-comment{
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 12px;
+}
